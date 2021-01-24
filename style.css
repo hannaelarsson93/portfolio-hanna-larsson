@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+  /* outline: 1px dashed red; */
+}
+
+
+/* body for the website  */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 240, 240);
+}
+
+::selection {
+  /* background-color: rgb(203, 153, 126); */
+  background-color: rgb(240, 113, 103);  
+  /* background-color: red; */
+  color: white; 
+}
+
+
+/* Header of the website */
+
+/* The container for the element sin the header */
+
+.logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 3em;
+  padding-bottom: 3em; 
+}
+
+@media all and (max-width: 1100px) {
+  .logo-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* The picture for the logo */
+
+.logo-img {
+  width: 110px;
+  height: 100px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+@media all and (max-width: 1100px) {
+  .logo-img {
+    margin-left: 30px;
+  }
+}
+
+/* The h1 of the header "Hanna Larsson is an aspiring UX Designer based in Stockholm."*/
+
+h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.6vw;
+  font-weight: 50;
+  padding: 5%;
+}
+
+@media all and (max-width: 1100px) {
+  h1 {
+    font-size: 18px;
+    padding-top: 35px;
+  }
+}
+
+@media all and (max-width: 790px) {
+  h1 {
+    font-size: 16px;
+    padding-top: 35px;
+  }
+}
+
+/* Menu */
+
+/* The ul element used to build the menu, container for the list items in the menu */
+
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+/* Menu text "Portfolio", list item */
+
+.menu-portfolio {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 768px) {
+  .menu-portfolio {
+    font-size: 15px;  
+  }
+} 
+
+/* Menu text "About", lisst item */
+
+.menu-about {
+  font-weight: bold;
+  margin-left: 0.5em;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+@media all and (max-width: 768px) {
+  .menu-about {
+    font-size: 15px;  
+  }
+} 
+
+.menu-about:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vw;
+}
+
+@media all and (max-width: 480px) {
+h2 {
+font-size: 15px; 
+margin-top: 10%; 
+}
+ }
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.style-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  width: 80vw;
+  height: 450px;
+  padding: 6em;
+  margin-bottom: 2em;
+  font-family: "EB Garamond", serif;
+  /* color: rgb(65, 66, 65); */
+  color: black;
+}
+
+@media all and (max-width: 1024px) {
+  .style-card {
+    flex-direction: column;
+    height: 400px;
+    width: 80vw;
+    position: relative;
+    font-size: 20px;
+  }
+}
+
+.project-list {
+  display: flex;
+  align-items: center; 
+}
+
+@media all and (max-width: 480px) {
+.project-list {
+width: 100%;
+}
+}
+
+.project-description {
+  font-size: 2vw;
+  margin-left: 80px;
+}
+
+@media all and (max-width: 1024px) {
+  .project-description {
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    bottom: 80%;
+    margin: 8%;
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .project-description {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 480px) {
+.description-text {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+}
+
+
+.micro {
+  display: block;
+  /* color: rgb(203, 153, 126); */
+  color: rgb(240, 113, 103); 
+  /* color: red; */
+  text-decoration: none;
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+}
+
+@media all and (max-width: 790px) {
+  .micro {
+    bottom: 60%;
+  }
+}
+
+.micro:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+.resize-img {
+  width: 30vw;
+}
+
+@media all and (max-width: 1100px) {
+  .resize-img {
+    width: 260px;
+    height: 140px;
+    position: relative;
+    bottom: 65%;
+  }
+}
+
+.menu-about:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.menu-portfolio {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.menu-about {
+  text-transform: uppercase;
+}
+
+
+
+/* Footer of the webpage  */
+
+.container-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+@media all and (max-width: 1100px) {
+  .container-footer {
+    flex-direction: column;
+  }
+}
+
+.footer-list {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-family: "EB Garamond", serif;
+  font-size: 16px;
+}
+
+@media all and (max-width: 480px) {
+  .footer-list {
+    font-size: 7px;
+    margin: 0;
+    margin-bottom: 6%;
+  }
+}
+
+.link-footer {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "EB Garamond", serif;
+}
+
+@media all and (max-width: 480px) {
+  .link-footer {
+    font-size: 6px;
+  }
+}
+
+li {
+  margin-right: 40px;
+}
+
+@media all and (max-width: 480px) {
+li {
+    font-size: 7px;
+    margin-right: 20px; 
+  }
+}
+
+.mail {
+  list-style: none;
+  text-decoration: none;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

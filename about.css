@@ -1,0 +1,444 @@
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+/* body for the website  */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 240, 240);
+}
+
+::selection {
+  background-color: rgb(240, 113, 103); 
+  /* background-color: red;  */
+  color: white; 
+}
+
+/* Header of the website */
+
+/* The container for the element sin the header */
+
+.logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+@media all and (max-width: 1100px) {
+  .logo-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* The picture for the logo */
+
+.logo-img {
+  width: 110px;
+  height: 100px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+@media all and (max-width: 1100px) {
+  .logo-img {
+    margin-left: 30px;
+  }
+}
+
+/* The h1 of the header "Hanna Larsson is an aspiring UX Designer based in Stockholm."*/
+
+h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.6vw;
+  font-weight: 50;
+  padding: 5%;
+}
+
+@media all and (max-width: 1100px) {
+  h1 {
+    font-size: 18px;
+    padding-top: 35px;
+  }
+}
+
+@media all and (max-width: 790px) {
+  h1 {
+    font-size: 16px;
+    padding-top: 35px;
+  }
+}
+
+/* Menu */
+
+/* The ul element used to build the menu, container for the list items in the menu */
+
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+/* Menu text "Portfolio", list item */
+
+.menu-portfolio {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 768px) {
+  .menu-portfolio {
+    font-size: 15px;  
+  }
+} 
+
+/* Menu text "About", lisst item */
+
+.menu-about {
+  font-weight: bold;
+  margin-left: 0.5em;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+@media all and (max-width: 768px) {
+  .menu-about {
+    font-size: 15px;  
+  }
+} 
+
+.menu-about:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+/* The first section */
+
+.img-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(65, 66, 65);
+  color: rgb(241, 240, 240);
+}
+
+@media all and (max-width: 1100px) {
+  .img-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.img-1 {
+  width: 50vw;
+}
+
+@media all and (max-width: 1100px) {
+  .img-1 {
+    align-self: space-around;
+    margin-bottom: 8%;
+  }
+}
+
+.text-left {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.2vw;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5%;
+}
+
+
+/* The second section of the page  */
+
+.text-width-3 {
+  padding-top: 3%;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+/* The container of the text  */
+
+.description-3 {
+  height: 50vw;
+  color: rgb(65, 66, 65);
+  background-color: rgb(241, 240, 240);
+  width: 100%;
+  margin: 0;
+  margin-top: 5%;
+}
+
+
+.project-head-3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0;
+  padding-bottom: 5%;
+}
+
+@media all and (max-width: 1100px) {
+  .project-head-3 {
+    font-size: 20px;
+    padding: 0;
+    padding-bottom: 5%;
+  }
+}
+
+@media all and (max-width: 790px) {
+  .project-head-3 {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .project-head-3 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+  }
+}
+
+/* The main text in the first section - decides the font-size and font-family of the "main text"  */
+
+p {
+  font-family: "EB Garamond", serif;
+  font-size: 2vw;
+}
+
+
+@media all and (max-width: 768px) {
+  p {
+    font-size: 2vw;
+  }
+}
+
+
+@media all and (max-width: 480px) {
+  p {
+    font-size: 2vw;
+  }
+}
+
+/* The project header, The project main header  */
+
+.project-head {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media all and (max-width: 1100px) {
+  .project-head {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 790px) {
+  .project-head {
+    font-size: 15px;
+    margin: 0;
+  }
+}
+
+/* The smaller text in the bottom of the first section  */
+
+.disclaimer {
+  font-style: italic;
+  font-size: 15px;
+  color: grey;
+}
+
+/* The width of the child div to the .description - decides the width of the text for example */
+
+.text-width {
+  padding-top: 3%;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+/* The third section */
+
+/* The picture of the second section - decides the size of the image in width and height (how much space the image should take in the div)  */
+
+.img-horizontal {
+  width: 100%;
+  height: 55vw;
+}
+
+@media all and (max-width: 1024px) {
+  .img-horizontal {
+    height: 50vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .img-horizontal {
+    height: 50vw;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .img-horizontal {
+    height: 40vw;
+  }
+}
+
+
+.img-container {
+  background-color: rgb(65, 66, 65);
+}
+
+/* The fourth section of the page  */
+
+.text-width-3 {
+  padding-top: 3%;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+/* The container of the text  */
+
+.description-4 {
+  height: 76vw;
+  background-color: rgb(65, 66, 65);
+  color: rgb(241, 240, 240);
+  width: 100%;
+}
+
+/* @media all and (max-width: 480px) {
+  .description-5 {
+    height: 136vw;
+  }
+} */
+
+
+
+li {
+padding: 1%;   
+}
+
+.project-head-4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0;
+  padding-bottom: 5%;
+  margin-top: 3%; 
+}
+
+
+/* The font-family of the list (ul element)  */
+.list-about {
+  font-family: "EB Garamond", serif;
+  font-size: 2vw;
+  list-style: none; 
+}
+
+/* The width of the child div to the .description - decides the width of the text for example */
+
+.text-width {
+  padding-top: 3%;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+
+.heading-list {
+margin-right: 3%;  
+text-transform: uppercase; 
+font-family: "Roboto", sans-serif;
+font-size: 2vw;
+}
+
+
+
+/* Footer of the webpage  */
+
+.container-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+@media all and (max-width: 1100px) {
+  .container-footer {
+    flex-direction: column;
+  }
+}
+
+.footer-list {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-family: "EB Garamond", serif;
+  font-size: 16px;
+}
+
+@media all and (max-width: 480px) {
+  .footer-list {
+    font-size: 7px;
+    margin: 0;
+    margin-bottom: 6%;
+  }
+}
+
+.link-footer {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "EB Garamond", serif;
+}
+
+@media all and (max-width: 480px) {
+  .link-footer {
+    font-size: 6px;
+  }
+}
+
+li {
+  margin-right: 40px;
+}
+
+@media all and (max-width: 480px) {
+li {
+    font-size: 7px;
+    margin-right: 20px; 
+  }
+}
+
+.mail {
+  list-style: none;
+  text-decoration: none;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
