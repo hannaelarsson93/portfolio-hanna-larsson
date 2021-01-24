@@ -149,7 +149,6 @@ margin-top: 10%;
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  
   width: 80vw;
   height: 450px;
   padding: 6em;
@@ -168,6 +167,7 @@ margin-top: 10%;
     font-size: 20px;
   }
 }
+
 
 .project-list {
   display: flex;
@@ -190,24 +190,39 @@ width: 100%;
     text-align: center;
     position: relative;
     font-size: 16px;
-    bottom: 80%;
-    margin: 8%;
-    width: 300px;
+    bottom: 45%; 
+    margin: 0;  
+  }
+}
+
+@media all and (max-width: 768px) {
+  .project-description {
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    bottom: 40%; 
+    margin: 0;  
   }
 }
 
 @media all and (max-width: 480px) {
   .project-description {
     font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+    margin: 0; 
   }
 }
 
-@media all and (max-width: 480px) {
+
+
+/* @media all and (max-width: 480px) {
 .description-text {
     padding-left: 20vw;
     padding-right: 20vw;
-}
-}
+ }
+} */
 
 
 .micro {
@@ -238,12 +253,10 @@ width: 100%;
 
 @media all and (max-width: 1024px) {
   .resize-img {
-text-align: center;
-position: relative;
-font-size: 16px;
-bottom: 60%;
-width: 30vw;
-padding-bottom: 10%; 
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+    margin-bottom: 2%;
  }
 }
 
@@ -251,10 +264,7 @@ padding-bottom: 10%;
   .resize-img {
     text-align: center;
     position: relative;
-    font-size: 16px;
-    bottom: 50%;
-    width: 50vw;
-    padding-bottom: 3%; 
+    bottom: 70%;
 }
 }
 
@@ -263,9 +273,7 @@ padding-bottom: 10%;
   .resize-img {
     text-align: center;
     position: relative;
-    font-size: 16px;
-    bottom: 70%;
-    width: 50vw;  
+    bottom: 80%; 
      }
     }
 
