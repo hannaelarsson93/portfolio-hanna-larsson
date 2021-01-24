@@ -161,12 +161,9 @@ margin-top: 10%;
 @media all and (max-width: 1024px) {
   .style-card {
     flex-direction: column;
-    height: 400px;
-    width: 80vw;
-    position: relative;
-    font-size: 20px;
   }
 }
+
 
 
 .project-list {
@@ -189,40 +186,11 @@ width: 100%;
   .project-description {
     text-align: center;
     position: relative;
-    font-size: 16px;
     bottom: 45%; 
     margin: 0;  
   }
 }
 
-@media all and (max-width: 768px) {
-  .project-description {
-    text-align: center;
-    position: relative;
-    font-size: 16px;
-    bottom: 40%; 
-    margin: 0;  
-  }
-}
-
-@media all and (max-width: 480px) {
-  .project-description {
-    font-size: 12px;
-    text-align: center;
-    position: relative;
-    bottom: 50%;
-    margin: 0; 
-  }
-}
-
-
-
-/* @media all and (max-width: 480px) {
-.description-text {
-    padding-left: 20vw;
-    padding-right: 20vw;
- }
-} */
 
 
 .micro {
@@ -232,13 +200,12 @@ width: 100%;
   /* color: red; */
   text-decoration: none;
   font-family: "EB Garamond", serif;
-  font-size: 22px;
+  font-size: 2vw;
 }
 
 @media all and (max-width: 790px) {
   .micro {
     bottom: 60%;
-    font-size: 14px;
   }
 }
 
@@ -260,22 +227,7 @@ width: 100%;
  }
 }
 
-@media all and (max-width: 768px) {
-  .resize-img {
-    text-align: center;
-    position: relative;
-    bottom: 70%;
-}
-}
 
-
-@media all and (max-width: 480px) {
-  .resize-img {
-    text-align: center;
-    position: relative;
-    bottom: 80%; 
-     }
-    }
 
 
 .menu-about:hover {

@@ -215,32 +215,6 @@ h1 {
   }
 }
 
-.disclaimer {
-  text-align: center; 
-  font-style: italic;
-  font-size: 1.2vw;
-  color: grey;
-  margin-top: 2%;
-  margin-bottom: 6%;
-}
-
-@media all and (max-width: 1024px) {
-  .disclaimer {
-    font-size: 1.2vw;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .disclaimer {
-    font-size: 1.2w;
-  }
-}
-
-@media all and (max-width: 480px) {
-  .disclaimer {
-    font-size: 1.2vw;
-  }
-}
 
 /* The main text in the first section - decides the font-size and font-family of the "main text"  */
 
@@ -267,20 +241,20 @@ p {
 
 .project-head {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 2.5vw; 
   text-transform: uppercase;
   font-weight: bold;
 }
 
 @media all and (max-width: 1100px) {
   .project-head {
-    font-size: 20px;
+    font-size: 2.5vw;
   }
 }
 
 @media all and (max-width: 790px) {
   .project-head {
-    font-size: 15px;
+    font-size: 2.5vw;
     margin: 0;
   }
 }
@@ -289,7 +263,7 @@ p {
 
 .disclaimer {
   font-style: italic;
-  font-size: 15px;
+  font-size: 1.2vw;
   color: grey;
 }
 
