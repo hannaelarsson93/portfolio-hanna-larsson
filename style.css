@@ -235,14 +235,14 @@ width: 100%;
   width: 30vw;
 }
 
-@media all and (max-width: 480px) {
+/* @media all and (max-width: 480px) {
   .resize-img {
     width: 220px;
     height: 100px;
     position: relative;
     bottom: 80%;
   }
-}
+} */
 
 .menu-about:hover {
   text-decoration: underline;
