@@ -215,6 +215,33 @@ h1 {
   }
 }
 
+.explain {
+  text-align: center; 
+  font-style: italic;
+  font-size: 1.2vw;
+  color: grey;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+@media all and (max-width: 1024px) {
+  .disclaimer {
+    font-size: 1.2vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .disclaimer {
+    font-size: 1.2w;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .disclaimer {
+    font-size: 1.2vw;
+  }
+}
+
 /* The main text in the first section - decides the font-size and font-family of the "main text"  */
 
 p {
