@@ -222,7 +222,7 @@ width: 100%;
 @media all and (max-width: 790px) {
   .micro {
     bottom: 60%;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -237,10 +237,10 @@ width: 100%;
 
 @media all and (max-width: 480px) {
   .resize-img {
-    width: 260px;
-    height: 140px;
+    width: 220px;
+    height: 100px;
     position: relative;
-    bottom: 65%;
+    bottom: 80%;
   }
 }
 
