@@ -264,11 +264,11 @@ width: 100%;
  }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
   .resize-img {
     text-align: center;
     position: relative;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
  }
 }
 
