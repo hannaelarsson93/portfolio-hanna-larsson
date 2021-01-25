@@ -356,6 +356,34 @@ p {
   }
 
 
+  .explain-margin {
+    text-align: center; 
+    font-style: italic;
+    font-size: 1.2vw;
+    color: grey;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    padding-left: 3%;
+  }
+  
+  @media all and (max-width: 1024px) {
+    .disclaimer {
+      font-size: 1.2vw;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    .disclaimer {
+      font-size: 1.2w;
+    }
+  }
+  
+  @media all and (max-width: 480px) {
+    .disclaimer {
+      font-size: 1.2vw;
+    }
+  }
+
 
 /* The 5th section  */
 
@@ -397,7 +425,7 @@ p {
 
 
 .description-problem {
-  height:58vw;
+  height: 48vw;
   color: rgb(65, 66, 65);
   background-color: white;
   width: 100%; 
@@ -610,7 +638,7 @@ p {
 
 .description-assorted {
   display: flex;
-  height: 73vw;
+  height: 70vw;
   color: rgb(65, 66, 65);
   background-color: white; 
   width: 100%;
@@ -696,6 +724,17 @@ p {
   }
 
 
+  .disclaimer-padding {
+    align-self: center; 
+    font-style: italic;
+    font-size: 1.2vw;
+    color: grey;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    text-align: center; 
+    padding-right: 10%; 
+  }
+
 .change {
   margin: 1.5%;
 }
@@ -737,7 +776,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 60vw;
+  height: 65vw;
   color: rgb(65, 66, 65);
   /* background-color: rgb(241,240,240);  */
   background-color:white;  
