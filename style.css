@@ -161,10 +161,47 @@ margin-top: 10%;
 @media all and (max-width: 1024px) {
   .style-card {
     flex-direction: column;
-    height: 400px; 
+    background-color: #ffffff;
+  width: 80vw;
+  height: 450px;
+  padding: 6em;
+  margin-bottom: 1em;
+  font-family: "EB Garamond", serif;
+  /* color: rgb(65, 66, 65); */
+  color: black;
   }
 }
 
+@media all and (max-width: 768px) {
+  .style-card {
+    flex-direction: column;
+    background-color: #ffffff;
+  width: 80vw;
+  height: 500px;
+  padding: 10em;
+  margin-bottom: 2em;
+  font-family: "EB Garamond", serif;
+  /* color: rgb(65, 66, 65); */
+  color: black;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .style-card {
+    flex-direction: column;
+    background-color: #ffffff;
+  width: 80vw;
+  height: 250px;
+  padding: 10em;
+  margin-bottom: 2em;
+  font-family: "EB Garamond", serif;
+  /* color: rgb(65, 66, 65); */
+  color: black;
+  }
+}
+
+
+/* 
 @media all and (max-width: 769px) {
   .style-card {
     flex-direction: column;
@@ -189,7 +226,7 @@ margin-top: 10%;
 .project-list {
 width: 100%;
  }
-}
+} */
 
 .project-description {
   font-size: 2vw;
