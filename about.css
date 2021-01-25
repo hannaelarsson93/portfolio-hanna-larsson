@@ -171,7 +171,7 @@ h1 {
 /* The container of the text  */
 
 .description-3 {
-  height: 53vw;
+  height: 55vw;
   color: rgb(65, 66, 65);
   background-color: rgb(241, 240, 240);
   width: 100%;
@@ -298,7 +298,7 @@ p {
 
 @media all and (max-width: 480px) {
   .img-horizontal {
-    height: 40vw;
+    height: 50vw;
   }
 }
 
@@ -318,10 +318,10 @@ p {
 /* The container of the text  */
 
 .description-4 {
-  height: 76vw;
+  height: 78vw;
   background-color: rgb(65, 66, 65);
   color: rgb(241, 240, 240);
-  width: 100%;
+  width: 100%;  
 }
 
 /* @media all and (max-width: 480px) {
@@ -343,7 +343,7 @@ padding: 1%;
   font-weight: bold;
   padding: 0;
   padding-bottom: 5%;
-  margin-top: 3%; 
+  margin-top: 8%; 
 }
 
 
