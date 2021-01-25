@@ -286,19 +286,19 @@ p {
 
 @media all and (max-width: 1024px) {
   .img-horizontal {
-    height: 50vw;
+    height: 55vw;
   }
 }
 
 @media all and (max-width: 768px) {
   .img-horizontal {
-    height: 50vw;
+    height: 55vw;
   }
 }
 
 @media all and (max-width: 480px) {
   .img-horizontal {
-    height: 60vw;
+    height: 55vw;
   }
 }
 
@@ -318,7 +318,7 @@ p {
 /* The container of the text  */
 
 .description-4 {
-  height: 78vw;
+  height: 80vw;
   background-color: rgb(65, 66, 65);
   color: rgb(241, 240, 240);
   width: 100%;  
