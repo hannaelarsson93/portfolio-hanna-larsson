@@ -298,7 +298,7 @@ p {
 
 @media all and (max-width: 480px) {
   .img-horizontal {
-    height: 50vw;
+    height: 60vw;
   }
 }
 
