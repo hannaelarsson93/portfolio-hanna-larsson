@@ -158,7 +158,7 @@ margin-top: 10%;
   color: black;
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 1024px) {
   .style-card {
     flex-direction: column;
     height: 400px; 
@@ -180,10 +180,10 @@ margin-top: 10%;
 }
 
 
-/* .project-list {
+.project-list {
   display: flex;
   align-items: center; 
-} */
+}
 
 @media all and (max-width: 480px) {
 .project-list {
@@ -199,9 +199,9 @@ width: 100%;
 @media all and (max-width: 1024px) {
   .project-description {
     text-align: center;
-    position: relative;
-    bottom: 33%; 
-    margin: 0;  
+    position: relative; 
+    bottom: 20%; 
+    margin: 0%;
   }
 }
 
@@ -210,6 +210,15 @@ width: 100%;
     text-align: center;
     position: relative;
     bottom: 30%; 
+    margin: 0;  
+  }
+}
+
+@media all and (max-width: 660px) {
+  .project-description {
+    text-align: center;
+    position: relative;
+    bottom: 15%; 
     margin: 0;  
   }
 }
