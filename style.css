@@ -264,6 +264,15 @@ width: 100%;
  }
 }
 
+@media all and (max-width: 768px) {
+  .resize-img {
+    text-align: center;
+    position: relative;
+    padding-bottom: 25%;
+ }
+}
+
+
 
 
 
