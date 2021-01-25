@@ -135,7 +135,7 @@ h2 {
 
 @media all and (max-width: 480px) {
 h2 {
-font-size: 15px; 
+font-size: 10px; 
 margin-top: 10%; 
 }
  }
@@ -158,14 +158,14 @@ margin-top: 10%;
   color: black;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
   .style-card {
     flex-direction: column;
     height: 400px; 
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 769px) {
   .style-card {
     flex-direction: column;
     height: 350px; 
@@ -175,7 +175,7 @@ margin-top: 10%;
 @media all and (max-width: 480px) {
   .style-card {
     flex-direction: column;
-    height: 200px; 
+    height: 220px; 
   }
 }
 
