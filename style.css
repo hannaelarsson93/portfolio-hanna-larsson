@@ -176,6 +176,7 @@ margin-top: 10%;
   .style-card {
     flex-direction: column;
     height: auto;  
+    margin-bottom: 3em; 
   }
 }
 
