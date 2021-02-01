@@ -580,7 +580,7 @@ p {
 /* Makes the closing quote invisible to the blockquote-user correct further down */
 
 blockquote {
-  padding: 22px;
+  padding: 1vw;
   quotes: "\201C""\201D""\2018""\2019";
   font-size: 1vw;
 }
