@@ -352,6 +352,7 @@ padding: 1%;
   font-family: "EB Garamond", serif;
   font-size: 2vw;
   list-style: none; 
+  padding: 0;
 }
 
 /* The width of the child div to the .description - decides the width of the text for example */
