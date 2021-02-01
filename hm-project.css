@@ -558,7 +558,7 @@ p {
 
 .blockquote {
   /* background: #ffffff; */
-  border-left: 10px solid #ccc;
+  border-left: 1vw solid #ccc;
   margin: 1.5em 1vw;
   padding: 0.5em 1vw;
   quotes: "\201C""\201D""\2018""\2019";
@@ -577,13 +577,12 @@ p {
   vertical-align: -0.4em;
 }
 
-
-/* Makes the closing quote invisible to the blockquote-user right further down */
+/* Makes the closing quote invisible to the blockquote-user correct further down */
 
 blockquote {
-  padding: 10px solid #ccc;
+  padding: 22px;
   quotes: "\201C""\201D""\2018""\2019";
-  font-size: 2.5vw;
+  font-size: 15px;
 }
 blockquote:before {
   color: #111;
@@ -596,7 +595,6 @@ blockquote:after {
   visibility: hidden;
   content: close-quote;
 }
-
 
 /* Padding for list items in section with "How might we.." */
 .listitem-1 {
