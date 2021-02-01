@@ -582,7 +582,7 @@ p {
 blockquote {
   padding: 22px;
   quotes: "\201C""\201D""\2018""\2019";
-  font-size: 15px;
+  font-size: 1vw;
 }
 blockquote:before {
   color: #111;
@@ -1014,7 +1014,7 @@ blockquote:after {
 .blockquote-user {
   /* background: #ffffff; */
   /* border-left: 10px solid #ccc; */
-  border-left: 10px solid white; 
+  border-left: 1vw solid white; 
   margin: 1.5em 1vw;
   padding: 0.5em 1vw;
   quotes: "\201C""\201D""\2018""\2019";
