@@ -581,9 +581,9 @@ p {
 /* Makes the closing quote invisible to the blockquote-user right further down */
 
 blockquote {
-  padding: 22px;
+  padding: 10px solid #ccc;
   quotes: "\201C""\201D""\2018""\2019";
-  font-size: 15px;
+  font-size: 2.5vw;
 }
 blockquote:before {
   color: #111;
