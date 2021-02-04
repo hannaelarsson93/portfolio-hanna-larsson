@@ -89,7 +89,6 @@ h1 {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   font-size: 23px;
-  text-decoration: underline;
   text-transform: uppercase;
 }
 
@@ -107,6 +106,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 23px;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 
