@@ -158,6 +158,25 @@ margin-top: 10%;
   color: black;
 }
 
+.style-card { 
+  animation: fadeInAnimation ease 1s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+} 
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+          padding-top: 10%
+    
+  } 
+  100% { 
+      opacity: 1; 
+
+  } 
+} 
+
+
 @media all and (max-width: 1024px) {
   .style-card {
     flex-direction: column;
