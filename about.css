@@ -74,7 +74,6 @@ h1 {
   }
 }
 
-
 /* Menu */
 
 /* The ul element used to build the menu, container for the list items in the menu */
@@ -90,6 +89,7 @@ h1 {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   font-size: 23px;
+  text-decoration: underline;
   text-transform: uppercase;
 }
 
@@ -107,7 +107,6 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 23px;
   text-transform: uppercase;
-  text-decoration: underline;
 }
 
 
