@@ -12,7 +12,69 @@ body {
   background-color: rgb(241, 240, 240);
 }
 
+/* Floating menu  */
 
+.floating-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(241, 240, 240);
+  padding: 15px;
+  margin-top: 22%; 
+  width: 140px;
+  z-index: 100;
+  position: fixed;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .floating-menu {
+   width: 15vw;
+  }
+} 
+
+
+.floating-menu a
+{
+  font-size: 0.9em;
+  display: block;
+  margin: 0 0.9em;
+  margin-bottom: 3%; 
+  color: black;
+}
+
+@media all and (max-width: 600px) {
+  .floating-menu a {
+font-size: 10%;
+  }
+} 
+
+.floating-menu h3 {
+  font-size: 0.9em;
+  display: block;
+  margin: 0 0.9em;
+  color: black;
+  margin-bottom: 8%;
+}
+
+@media all and (max-width: 600px) {
+  .floating-menu h3 {
+font-size: 10%;
+  }
+} 
+
+/* Email icon floating on page */
+
+.email-float {
+  z-index: 100;
+  position: fixed;
+  bottom:0;
+  right:0;
+}
+
+.email-size {
+width: 10vw;
+padding: 15px;
+margin-top: 150%; 
+}
 
 /* Decides the color of the background-color  and color of all high-lighted text */
 
@@ -136,6 +198,82 @@ h1 {
   text-transform: uppercase;
 }
 
+/* Summary for the case  */
+.summary-parent{
+  color: rgb(65, 66, 65); 
+  background-color: white;
+  display: flex; 
+  justify-content: center; 
+  font-family: "EB Garamond", serif;
+  font-size: 1.5vw;
+  font-weight: 50;
+  }
+  
+  .summary-list1{
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0;  
+    list-style-type: none;
+    margin-top: 4%; 
+    height: 5vw;
+    }
+  
+    .summary-list2{
+      display: flex; 
+      flex-wrap: wrap; 
+      margin: 0;  
+      list-style-type: none;
+      height: 5vw; 
+      margin-bottom: 1%;
+      }
+  
+  /* Summary for the case  */
+  .summary-parent-menu{
+    color: black;
+    background-color: rgb(241, 240, 240);
+    display: flex; 
+    justify-content: space-evenly; 
+    font-size: 1.5vw;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 5%; 
+    }
+
+    @media all and (max-width: 1100px) {
+      .summary-parent-menu {
+        font-size: 10px;  
+      }
+    } 
+
+    @media all and (max-width: 480px) {
+      .summary-parent-menu {
+        font-size: 6px;  
+      }
+    }
+    
+    .summary-list1-menu{
+      display: flex; 
+      flex-wrap: wrap; 
+      margin: 0;  
+      list-style-type: none;
+      margin-top: 4%; 
+      height: 5vw;
+      padding-left: 15%;
+      padding-right: 15%; 
+      }
+  
+      .summary-list2-menu{
+        display: flex; 
+        flex-wrap: wrap; 
+        margin: 0;  
+        list-style-type: none;
+        margin-top: 4%; 
+        height: 5vw;
+        padding-left: 10%;
+        padding-right: 10%; 
+        }
+
 
 /* First section of the webpage - Just text with short description of the  project */
 
@@ -257,7 +395,9 @@ p {
 
 .img-horizontal {
   width: 100%;
-  height: 55vw;
+  text-align: center;
+  display: block; 
+  margin: auto; 
 }
 
 @media all and (max-width: 1024px) {

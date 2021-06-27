@@ -142,6 +142,7 @@ margin-top: 10%;
 .main-content {
   display: flex;
   justify-content: center;
+  padding-bottom: 4%;
 }
 
 .style-card {
@@ -261,10 +262,25 @@ width: 100%;
   text-decoration: underline;
 }
 
-.resize-img {
-  width: 30vw; 
+.resize-img-1 {
+  width: 20vw; 
   height: auto; 
 }
+
+.resize-img-2 {
+  width: 24vw; 
+  height: auto; 
+}
+
+.resize-img-3 {
+  width: 30vw; 
+  height: 20vw; 
+}
+
+/* .resize-img {
+  width: 30vw; 
+  height: 30vw 
+} */
 
 @media all and (max-width: 1024px) {
   .resize-img {

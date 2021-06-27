@@ -3,6 +3,21 @@
   margin-top: 0;  
 }
 
+/* Email icon floating on page */
+
+.email-float {
+  z-index: 100;
+  position: fixed;
+  bottom:0;
+  right:0;
+}
+
+.email-size {
+width: 8vw;
+padding: 15px;
+margin-top: 150%; 
+}
+
 /* body for the website  */
 
 body {
@@ -190,7 +205,7 @@ h1 {
 /* The container of the text  */
 
 .description-3 {
-  height: 58vw;
+  height: 70vw;
   color: rgb(65, 66, 65);
   background-color: rgb(241, 240, 240);
   width: 100%;
@@ -365,6 +380,15 @@ padding: 1%;
   margin-top: 8%; 
 }
 
+.project-head-10 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0;
+  padding-bottom: 5%;
+}
+
 
 /* The font-family of the list (ul element)  */
 .list-about {
@@ -389,7 +413,6 @@ text-transform: uppercase;
 font-family: "Roboto", sans-serif;
 font-size: 2vw;
 }
-
 
 
 /* Footer of the webpage  */
