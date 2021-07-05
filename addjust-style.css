@@ -31,6 +31,13 @@ body {
     }
   } 
 
+  @media all and (max-width: 480px) {
+    .floating-menu {
+     width: 20vw;
+    }
+  } 
+
+
   .floating-menu a
   {
     font-size: 0.9em;
