@@ -366,6 +366,7 @@ p {
 }
 
 
+
 /* The smaller text in the bottom of the first section  */
 
 .disclaimer {
@@ -455,6 +456,14 @@ p {
 
 
 .project-head-3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0;
+}
+
+.project-head-3-feed {
   font-family: "Roboto", sans-serif;
   font-size: 2.5vw;
   text-transform: uppercase;
@@ -630,6 +639,23 @@ p {
   padding: 0;
 }
 
+.description-feedback {
+  height: 15vw;
+  color: rgb(65, 66, 65);
+  background-color: rgb(241, 240, 240);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 5%; 
+}
+
+/* 
+@media all and (max-width: 1024px) {
+  .description-6 {
+    height: 220px;
+  }
+} */
+
 
 
 /* section 2 of the 6th section - Picture and text next to each other */
@@ -675,6 +701,12 @@ p {
 /* This is the samller text in the top of the box (the rest of this sections gets it styling from the 5th section, because they look exactly the same in style) */
 
 .h2-7 {
+  text-transform: uppercase;
+  margin-top: 6%;
+  font-size: 1.2vw;
+}
+
+.h2-7-feed {
   text-transform: uppercase;
   margin-top: 6%;
   font-size: 1.2vw;
@@ -742,6 +774,42 @@ p {
   vertical-align: -0.4em;
 }
 
+/* Quote from the feedback  */
+
+.quote-feed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6%; 
+  background-color: rgb(65, 66, 65);
+}
+
+.quote-child-feed {
+  width: 50vw;
+}
+
+
+.blockquote-feed {
+  /* background: #ffffff; */
+  border-left: 2vw white;
+  margin: 1.5em 1vw;
+  padding: 1em 1vw;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 2vw;
+  font-style: italic;
+  font-family: "EB Garamond", serif;
+  color: white;
+}
+
+.blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 4em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
 /* Makes the closing quote invisible to the blockquote-user correct further down */
 
 blockquote {
@@ -750,7 +818,7 @@ blockquote {
   font-size: 1vw;
 }
 blockquote:before {
-  color: #111;
+  color: white;
   content: open-quote;
   font-size: 4em;
   line-height: 0;
@@ -1215,6 +1283,11 @@ span {
 font-size: 1.5vw;
 }
 
+.feedback {
+  font-size: 1.5vw;
+  padding-left: 80%;
+  }
+
 
 /* Image for the user testing quote */
 
@@ -1298,6 +1371,17 @@ font-size: 1.5vw;
   width: 100%;
   margin: 0;
 }
+
+
+.description-aligned-feed {
+  display: flex;
+  height: 13vw;
+  color: white;
+  background-color: rgb(65, 66, 65);
+  width: 100%;
+  margin: 0;
+}
+
 
 
 /* Size of the picture in the aligned section  */
