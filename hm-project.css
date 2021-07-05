@@ -640,7 +640,7 @@ p {
 }
 
 .description-feedback {
-  height: 15vw;
+  height: 20vw;
   color: rgb(65, 66, 65);
   background-color: rgb(241, 240, 240);
   width: 100%;
@@ -780,35 +780,15 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6%; 
+  
   background-color: rgb(65, 66, 65);
+  color: white;
 }
 
 .quote-child-feed {
   width: 50vw;
 }
 
-
-.blockquote-feed {
-  /* background: #ffffff; */
-  border-left: 2vw white;
-  margin: 1.5em 1vw;
-  padding: 1em 1vw;
-  quotes: "\201C""\201D""\2018""\2019";
-  font-size: 2vw;
-  font-style: italic;
-  font-family: "EB Garamond", serif;
-  color: white;
-}
-
-.blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 4em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
 
 /* Makes the closing quote invisible to the blockquote-user correct further down */
 
@@ -828,6 +808,8 @@ blockquote:after {
   visibility: hidden;
   content: close-quote;
 }
+
+
 
 /* Padding for list items in section with "How might we.." */
 .listitem-1 {
@@ -1370,6 +1352,15 @@ font-size: 1.5vw;
   background-color: rgb(241, 240, 240);
   width: 100%;
   margin: 0;
+}
+
+.feedback-alfa {
+  background-color: rgb(65, 66, 65);
+}
+
+.feedback-vit {
+  margin-bottom: 12%;
+  background-color: rgb(65, 66, 65);
 }
 
 
