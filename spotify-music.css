@@ -432,6 +432,32 @@ p {
   }
 }
 
+
+.img-horizontal-wall {
+  width: 100%;
+  text-align: center;
+  display: block; 
+  margin: auto; 
+}
+
+@media all and (max-width: 1024px) {
+  .img-horizontal-wall {
+    height: auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .img-horizontal-wall {
+    height: auto;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .img-horizontal-wall {
+    height: auto;
+  }
+}
+
 /* The third section of the page  */
 
 .text-width-3 {
