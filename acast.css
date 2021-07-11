@@ -328,14 +328,14 @@ h1 {
 
 @media all and (max-width: 768px) {
   .description {
-    height: 50vw;
+    height: 56vw;
   }
 }
 
 
 @media all and (max-width: 480px) {
   .description {
-    height: 50vw; 
+    height: 56vw; 
   }
 }
 
@@ -421,19 +421,19 @@ p {
 
 @media all and (max-width: 1024px) {
   .img-horizontal {
-    height: 50vw;
+    height: auto;
   }
 }
 
 @media all and (max-width: 768px) {
   .img-horizontal {
-    height: 50vw;
+    height: auto;
   }
 }
 
 @media all and (max-width: 480px) {
   .img-horizontal {
-    height: 40vw;
+    height: auto;
   }
 }
 
@@ -666,12 +666,15 @@ p {
   background-color: white;
 }
 
-.text-pic-container-last {
+.text-pic-container1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 5%; 
+  background-color: white;
+  padding-bottom: 5%;
 }
+
+
 
 
 .picture {
@@ -680,6 +683,10 @@ p {
 
 .pic-6 {
   width: 25vw;
+}
+
+.pic-66 {
+  width: 15vw;
 }
 
 .pic-16 {
@@ -1313,7 +1320,7 @@ font-size: 1.5vw;
 .description-value {
   height: 16vw;
   color: rgb(65, 66, 65);
-  background-color: rgb(241, 240, 240);
+  background-color: white;
   width: 100%;
   margin: 0;
   text-align: center;
