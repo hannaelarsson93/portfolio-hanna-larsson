@@ -82,6 +82,12 @@ font-size: 10%;
   margin-top: 150%; 
   }
   
+  @media all and (max-width: 480px) {
+    .email-size {
+      width: 60px;
+    }
+  } 
+  
 
 /* Decides the color of the background-color  and color of all high-lighted text */
 
