@@ -304,7 +304,7 @@ h1 {
   background-color: rgb(65, 66, 65);
   margin: 0;
   width: 100%; 
-  height: 52vw;
+  height: 48vw;
 }
 
 .description { 
@@ -353,20 +353,20 @@ h1 {
 
 p {
   font-family: "EB Garamond", serif;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 
 @media all and (max-width: 768px) {
   p {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
 }
 
 
 @media all and (max-width: 480px) {
   p {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
 }
 
@@ -448,7 +448,7 @@ p {
 /* The container of the text  */
 
 .description-3 {
-  height: 78vw;
+  height: 83vw;
   color: rgb(65, 66, 65);
   background-color: rgb(241, 240, 240);
   width: 100%;
@@ -457,13 +457,13 @@ p {
 
 @media all and (max-width: 768px) {
   .description-3 {
-    height: 78vw; 
+    height: 83vw; 
   }
 } 
 
 @media all and (max-width: 480px) {
   .description-3 {
-    height: 78vw; 
+    height: 83vw; 
   }
 } 
 
@@ -581,7 +581,7 @@ p {
 /* The container of the text  */
 
 .description-5 {
-  height: 68vw;
+  height: 64vw;
   color: rgb(65, 66, 65);
   background-color: white;
   width: 100%;
@@ -746,7 +746,7 @@ p {
   /* color: rgb(241,240,240); */
   text-align: left;
   font-family: "EB Garamond", serif;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: rgb(65, 66, 65);
 }
 
@@ -837,7 +837,7 @@ blockquote:after {
 
 
 .description-idea {
-  height: 41vw; 
+  height: 38vw; 
   color: rgb(65, 66, 65);
   background-color: rgb(241, 240, 240);
   width: 100%;

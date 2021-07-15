@@ -263,23 +263,23 @@ width: 100%;
 }
 
 .resize-img-1 {
-  width: 20vw; 
+  width: 30vw; 
   height: auto; 
 }
 
 .resize-img-2 {
-  width: 24vw; 
-  height: auto; 
+  width: 30vw; 
+  height: auto;
 }
 
 .resize-img-3 {
   width: 30vw; 
-  height: 20vw; 
+  height: auto; 
 }
 
 .resize-img-8 {
   width: 30vw; 
-  height: 21vw; 
+  height: auto; 
 }
 
 /* .resize-img {
@@ -288,7 +288,7 @@ width: 100%;
 } */
 
 @media all and (max-width: 1024px) {
-  .resize-img {
+  .resize-img-1 {
     text-align: center;
     position: relative;
     padding-bottom: 25%; 
@@ -296,7 +296,7 @@ width: 100%;
 }
 
 @media all and (max-width: 768px) {
-  .resize-img {
+  .resize-img-1 {
     text-align: center;
     position: relative;
     padding-bottom: 20%;
@@ -304,12 +304,85 @@ width: 100%;
 }
 
 @media all and (max-width: 480px) {
-  .resize-img {
+  .resize-img-1 {
     text-align: center;
     position: relative;
     padding-bottom: 5%;
  }
 }
+
+@media all and (max-width: 1024px) {
+  .resize-img-2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 25%; 
+ }
+}
+
+@media all and (max-width: 768px) {
+  .resize-img-2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 20%;
+ }
+}
+
+@media all and (max-width: 480px) {
+  .resize-img-2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 5%;
+ }
+}
+
+@media all and (max-width: 1024px) {
+  .resize-img-3 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 25%; 
+ }
+}
+
+@media all and (max-width: 768px) {
+  .resize-img-3 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 20%;
+ }
+}
+
+@media all and (max-width: 480px) {
+  .resize-img-3 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 5%;
+ }
+}
+
+@media all and (max-width: 1024px) {
+  .resize-img-8 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 25%; 
+ }
+}
+
+@media all and (max-width: 768px) {
+  .resize-img-8 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 20%;
+ }
+}
+
+@media all and (max-width: 480px) {
+  .resize-img-8 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 5%;
+ }
+}
+
 
 
 
