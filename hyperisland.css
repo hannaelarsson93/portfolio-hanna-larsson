@@ -328,14 +328,14 @@ h1 {
 
 @media all and (max-width: 768px) {
   .description {
-    height: 56vw;
+    height: 65vw;
   }
 }
 
 
 @media all and (max-width: 480px) {
   .description {
-    height: 56vw; 
+    height: 65vw; 
   }
 }
 

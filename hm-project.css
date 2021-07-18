@@ -33,7 +33,7 @@ body {
 
 @media all and (max-width: 480px) {
   .floating-menu {
-   width: 15vw;
+   width: 20vw;
   }
 } 
 
@@ -327,14 +327,14 @@ h1 {
 
 @media all and (max-width: 768px) {
   .description {
-    height: 48vw;
+    height: 50vw;
   }
 }
 
 
 @media all and (max-width: 480px) {
   .description {
-    height: 48vw; 
+    height: 60vw; 
   }
 }
 
