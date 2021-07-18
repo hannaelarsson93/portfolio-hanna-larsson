@@ -457,13 +457,13 @@ p {
 
 @media all and (max-width: 768px) {
   .description-3 {
-    height: 78vw; 
+    height: 86vw; 
   }
 } 
 
 @media all and (max-width: 480px) {
   .description-3 {
-    height: 78vw; 
+    height: 87  vw; 
   }
 } 
 
@@ -944,6 +944,11 @@ margin-bottom: 1%;
   margin: 0;
 }
 
+@media all and (max-width: 480px) {
+  .description-paper {
+    height: 42vw;
+  }
+}
 
 
 .box-paper {
