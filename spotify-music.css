@@ -373,7 +373,7 @@ p {
 
 @media all and (max-width: 480px) {
   p {
-    font-size: 1.8vw;
+    font-size: 2vw;
   }
 }
 

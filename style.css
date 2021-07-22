@@ -254,6 +254,14 @@ width: 100%;
 @media all and (max-width: 790px) {
   .micro {
     bottom: 60%;
+    font-size: 2.5vw;
+  }
+}
+
+@media all and (max-width: 790px) {
+  .micro {
+    bottom: 60%;
+    font-size: 3vw;
   }
 }
 
