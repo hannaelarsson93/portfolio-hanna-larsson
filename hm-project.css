@@ -27,14 +27,14 @@ body {
 
 @media all and (max-width: 600px) {
   .floating-menu {
-   width: 15vw;
-   margin-top: 50%; 
+   width: 20vw;
+   margin-top: 70%; 
   }
 } 
 
 @media all and (max-width: 480px) {
   .floating-menu {
-   width: 16vw;
+   width: 20vw;
    margin-top: 80%; 
   }
 } 
