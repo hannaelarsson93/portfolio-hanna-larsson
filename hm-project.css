@@ -1369,6 +1369,12 @@ font-size: 1.5vw;
   margin: 0;
 }
 
+@media all and (max-width: 480px) {
+  .description-aligned {
+    height: 67vw;
+  }
+}
+
 .feedback-alfa {
   background-color: rgb(65, 66, 65);
 }
