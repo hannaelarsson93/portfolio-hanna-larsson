@@ -34,7 +34,7 @@ body {
 
 @media all and (max-width: 480px) {
   .floating-menu {
-   width: 20vw;
+   width: 22vw;
    margin-top: 80%; 
   }
 } 
