@@ -25,9 +25,9 @@ body {
     border-radius: 10px;
   }
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 760px) {
     .floating-menu {
-     width: 15vw;
+     width: 28vw;
      margin-top: 70%; 
     }
   } 
@@ -84,11 +84,18 @@ padding: 15px;
 margin-top: 150%; 
 }
 
+@media all and (max-width: 740px) {
+  .email-size {
+    width: 80px;
+  }
+} 
+
 @media all and (max-width: 480px) {
   .email-size {
     width: 70px;
   }
 } 
+
 
   /* .h3-menu {
 text-decoration: underline;

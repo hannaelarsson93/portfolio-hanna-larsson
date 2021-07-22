@@ -25,9 +25,9 @@ body {
     border-radius: 10px;
   }
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 760px) {
     .floating-menu {
-     width: 15vw;
+     width: 28vw;
      margin-top: 70%; 
     }
   } 
@@ -95,6 +95,7 @@ margin-top: 150%;
     width: 70px;
   }
 } 
+
 
 
   /* .h3-menu {
