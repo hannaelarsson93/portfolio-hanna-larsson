@@ -19,7 +19,7 @@ body {
   background: rgb(241, 240, 240);
   padding: 15px;
   margin-top: 22%; 
-  width: 140px;
+  width: 145px;
   z-index: 100;
   position: fixed;
   border-radius: 10px;
@@ -34,7 +34,7 @@ body {
 
 @media all and (max-width: 480px) {
   .floating-menu {
-   width: 28vw;
+   width: 26vw;
    margin-top: 80%; 
   }
 } 
