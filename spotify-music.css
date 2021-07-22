@@ -25,10 +25,10 @@ body {
   border-radius: 10px;
 }
 
-@media all and (max-width: 760px) {
+@media all and (max-width: 600px) {
   .floating-menu {
-   width: 28vw;
-   margin-top: 70%; 
+   width: 15vw;
+   margin-top: 40%; 
   }
 } 
 
