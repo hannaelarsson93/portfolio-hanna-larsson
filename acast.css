@@ -14,16 +14,16 @@ body {
   
 /* Floating menu  */
 
-  .floating-menu {
-    font-family: Arial, Helvetica, sans-serif;
-    background: rgb(241, 240, 240);
-    padding: 15px;
-    margin-top: 22%; 
-    width: 145px;
-    z-index: 100;
-    position: fixed;
-    border-radius: 10px;
-  }
+.floating-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(241, 240, 240);
+  padding: 12px;
+  margin-top: 22%; 
+  width: 145px;
+  z-index: 100;
+  position: fixed;
+  border-radius: 10px;
+}
 
   @media all and (max-width: 760px) {
     .floating-menu {
